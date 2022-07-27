@@ -1,27 +1,64 @@
 import React, { useState, useEffect } from 'react'
-import { Route } from 'react-router-dom'
+import { Route, Switch } from 'react-router-dom'
 import './App.css'
 import Nav from './Components/Nav'
 import Form from './Components/Form'
 import Articles from './Components/Articles'
+import Homepage from './Components/Homepage'
+import ArticleDetails from './Components/ArticleDetails'
 
 const App = () => {
   
   const [articles, setArticles] = useState([])
 
+
+  const dataCleaner = (data) => {
+    const cleanedData = data.map((article) => {
+      let splitDate = article.created_date.split('T')
+      return {
+        id: Math.floor(Math.random() * Date.now()),
+        title: article.title,
+        abstract: article.abstract,
+        byLine: article.byLine,
+        createdDate: splitDate[0],
+        url: article.url,
+        section: article.section,
+        subSection: article.subsection,
+        multimedia: article.multimedia
+      }
+    })
+    return cleanedData
+  }
+
+
   useEffect(() => {
     fetch('https://api.nytimes.com/svc/topstories/v2/home.json?api-key=hmnMnvdrsTLgtLuLtFHwxdb5jQhBzJ2J')
     .then(response => response.json())
-    .then(data => console.log(data))
+    .then(data => dataCleaner(data.results))
+    .then(cleanedData => setArticles(cleanedData))
   },[])
 
   return (
     <div className='App'>
-      <Nav />
-        <div className='content'>
-          <Form />
-          <Articles />
-        </div>
+      <Switch>
+        <Route exact path='/'>
+          <Nav />
+          <Homepage articles={articles} />
+        </Route>
+        <Route exact path='/:id' 
+          render={({match}) => {
+            const foundArticle = articles.find((article) => {
+              return parseInt(article.id) === parseInt(match.params.id)
+            })
+            return (
+              <>
+                <Nav />
+                <ArticleDetails {...foundArticle}/>
+              </>
+            )
+          }}
+        />
+      </Switch>
     </div>
   )
 }
