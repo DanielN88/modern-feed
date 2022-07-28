@@ -1,6 +1,22 @@
 .nav-container {
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
   height: 12vh;
   width: 100vw;
   border: solid black 1px;
 }
 
+
+.nav-title {
+  margin-left: 5%;
+  font-size: 3.5rem;
+}
+
+.nav-button {
+  margin-left: 60px;
+  height: 2rem;
+  width: 5rem;
+  border: 1px solid darkblue;
+  border-radius: 12px;
+}

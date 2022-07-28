@@ -7,7 +7,7 @@ const Homepage = ({articles, updateFilter, subSections}) => {
   
   return (
     <div className='content'>
-      <Form updateFilter={updateFilter} subSections={subSections}/>
+      <Form updateFilter={updateFilter} />
       <Articles articles={articles} />
     </div>
   )
