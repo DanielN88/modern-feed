@@ -5,6 +5,8 @@
   height: 12vh;
   width: 100vw;
   border: solid black 1px;
+  background-color: #d5dded;
+  box-shadow: .4em .4em .7em;
 }
 
 

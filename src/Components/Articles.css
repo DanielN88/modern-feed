@@ -1,10 +1,13 @@
 .articles-section {
-  height: 90vh;
+  height: 80vh;
   width: 80vw;
   border: 1px solid black;
   border-radius: 20px;
   margin: 20px;
-  overflow:scroll;
+  margin-right: 30px;
+  overflow: scroll;
+  box-shadow: .75em .75em 1em;
+  background-color: #d5dded;
 }
 
 .articles-container {
@@ -17,10 +20,19 @@
 
 .article-title {
   font-size: 40px;
+  font-weight:800;
   margin-left: 50px;
 }
 
 .article-link {
   text-decoration: none;
   color: black;
+  margin: 15px;
+  border-radius: 20px;
+  box-shadow: .75em .75em 1em;
+  transition: transform 0.2s;
+}
+
+.article-link:hover {
+  transform: scale(1.1)
 }

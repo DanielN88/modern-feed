@@ -2,11 +2,12 @@ html {
   margin: 0px;
   height: 100vh;
   width: 100vw;
+  overflow: hidden;
 }
 
 .App {
   margin: 0px;
   height: 100vh;
   width: 100vw;
-  background-color: #d5dded;
+  background-color: white;
 }
