@@ -1,0 +1,200 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "Arts",
+  "last_updated": "2022-07-28T15:10:50-04:00",
+  "num_results": 39,
+  "results": [
+  {
+  "section": "arts",
+  "subsection": "design",
+  "title": "The Role of Art in a Time of War",
+  "abstract": "Painting will not stop missiles. Music will not end suffering. But culture is not powerless — and a visit to Ukraine reaffirmed what it can do at its best.",
+  "url": "https://www.nytimes.com/2022/07/28/arts/design/ukraine-war-art-culture.html",
+  "uri": "nyt://article/b7cd4558-491c-59f3-9c33-5f2df68f3fa1",
+  "byline": "By Jason Farago",
+  "item_type": "Article",
+  "updated_date": "2022-07-28T11:52:01-04:00",
+  "created_date": "2022-07-28T07:42:58-04:00",
+  "published_date": "2022-07-28T07:42:58-04:00",
+  "material_type_facet": "",
+  "kicker": "",
+  "des_facet": [
+  "War and Armed Conflicts",
+  "Russian Invasion of Ukraine (2022)",
+  "Art",
+  "Museums",
+  "Social Media",
+  "Culture (Arts)",
+  "Books and Literature"
+  ],
+  "org_facet": [],
+  "per_facet": [
+  "Jefferson, Margo",
+  "Rubens, Peter Paul",
+  "Zelensky, Volodymyr",
+  "Tokarczuk, Olga"
+  ],
+  "geo_facet": [
+  "Borodianka (Ukraine)",
+  "Kyiv (Ukraine)",
+  "Ukraine"
+  ],
+  "multimedia": [
+  {
+  "url": "https://static01.nyt.com/images/2022/07/31/arts/31ukraine-notebook-rubens/31ukraine-notebook1-superJumbo.jpg",
+  "format": "Super Jumbo",
+  "height": 1238,
+  "width": 2048,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": ""
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/31/arts/31ukraine-notebook-rubens/31ukraine-notebook-rubens-threeByTwoSmallAt2X.jpg",
+  "format": "threeByTwoSmallAt2X",
+  "height": 400,
+  "width": 600,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": ""
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/31/arts/31ukraine-notebook-rubens/31ukraine-notebook-rubens-thumbLarge.jpg",
+  "format": "Large Thumbnail",
+  "height": 150,
+  "width": 150,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": ""
+  }
+  ],
+  "short_url": "https://nyti.ms/3bcIozC"
+  },
+  {
+  "section": "theater",
+  "subsection": "",
+  "title": "Who Can Play the King? Questions of Representation Fuel Casting Debates.",
+  "abstract": "Should Shakespeare’s Richard III be reserved for disabled actors? Does the character have to be played by a white man? By a man at all? Three recent productions took different tacks.",
+  "url": "https://www.nytimes.com/2022/07/28/theater/richard-iii-casting-debates.html",
+  "uri": "nyt://article/620f0893-233d-5daf-8afe-3c21ae3a87fc",
+  "byline": "By Marc Tracy",
+  "item_type": "Article",
+  "updated_date": "2022-07-28T12:24:10-04:00",
+  "created_date": "2022-07-28T03:00:17-04:00",
+  "published_date": "2022-07-28T03:00:17-04:00",
+  "material_type_facet": "",
+  "kicker": "",
+  "des_facet": [
+  "Theater",
+  "Actors and Actresses",
+  "Disabilities",
+  "Richard III (Play)",
+  "Stratford Shakespeare Festival",
+  "Race and Ethnicity",
+  "Homosexuality and Bisexuality",
+  "Transgender and Transsexuals",
+  "Movies",
+  "internal-storyline-no"
+  ],
+  "org_facet": [
+  "Royal Shakespeare Co",
+  "Shakespeare in the Park",
+  "Public Theater"
+  ],
+  "per_facet": [],
+  "geo_facet": [],
+  "multimedia": [
+  {
+  "url": "https://static01.nyt.com/images/2022/07/27/arts/00CASTING-DEBATE-COMBO/00CASTING-DEBATE-COMBO-superJumbo.jpg",
+  "format": "Super Jumbo",
+  "height": 1365,
+  "width": 2048,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "Three productions this summer of “Richard III” took different approaches to the title role: Colm Feore, left, appeared at the Stratford Festival in Canada; Danai Gurira, center, at Free Shakespeare in the Park in New York; and Arthur Hughes, right, at the Royal Shakespeare Company in Britain.",
+  "copyright": "From left: David Hou; Sara Krulwich/The New York Times; Ellie Kurttz, via Royal Shakespeare Company"
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/27/arts/00CASTING-DEBATE-COMBO/00CASTING-DEBATE-COMBO-threeByTwoSmallAt2X.jpg",
+  "format": "threeByTwoSmallAt2X",
+  "height": 400,
+  "width": 600,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "Three productions this summer of “Richard III” took different approaches to the title role: Colm Feore, left, appeared at the Stratford Festival in Canada; Danai Gurira, center, at Free Shakespeare in the Park in New York; and Arthur Hughes, right, at the Royal Shakespeare Company in Britain.",
+  "copyright": "From left: David Hou; Sara Krulwich/The New York Times; Ellie Kurttz, via Royal Shakespeare Company"
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/27/arts/00CASTING-DEBATE-COMBO/00CASTING-DEBATE-COMBO-thumbLarge.jpg",
+  "format": "Large Thumbnail",
+  "height": 150,
+  "width": 150,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "Three productions this summer of “Richard III” took different approaches to the title role: Colm Feore, left, appeared at the Stratford Festival in Canada; Danai Gurira, center, at Free Shakespeare in the Park in New York; and Arthur Hughes, right, at the Royal Shakespeare Company in Britain.",
+  "copyright": "From left: David Hou; Sara Krulwich/The New York Times; Ellie Kurttz, via Royal Shakespeare Company"
+  }
+  ],
+  "short_url": "https://nyti.ms/3oBf0pK"
+  },
+  {
+  "section": "arts",
+  "subsection": "",
+  "title": "What’s the Deal With Water Bottles?",
+  "abstract": "A standup comedian’s drink is much more than a prop or a thirst quencher. It’s a stealth statement.",
+  "url": "https://www.nytimes.com/interactive/2022/07/28/arts/comedian-water-bottle-standup.html",
+  "uri": "nyt://interactive/08c62eca-1d4d-5463-a2c5-54d3a7260b66",
+  "byline": "By Jason Zinoman",
+  "item_type": "Interactive",
+  "updated_date": "2022-07-28T11:56:35-04:00",
+  "created_date": "2022-07-28T05:00:01-04:00",
+  "published_date": "2022-07-28T05:00:01-04:00",
+  "material_type_facet": "",
+  "kicker": "",
+  "des_facet": [
+  "Comedy and Humor",
+  "Plastic Bottles",
+  "Water"
+  ],
+  "org_facet": [],
+  "per_facet": [],
+  "geo_facet": [],
+  "multimedia": [
+  {
+  "url": "https://static01.nyt.com/images/2022/07/28/arts/28pattern-hp-static/28pattern-hp-static-superJumbo.jpg",
+  "format": "Super Jumbo",
+  "height": 1365,
+  "width": 2048,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": ""
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/28/arts/28pattern-hp-static/28pattern-hp-static-threeByTwoSmallAt2X.jpg",
+  "format": "threeByTwoSmallAt2X",
+  "height": 400,
+  "width": 600,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": ""
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/28/arts/28pattern-hp-static/28pattern-hp-static-thumbLarge.jpg",
+  "format": "Large Thumbnail",
+  "height": 150,
+  "width": 150,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": ""
+  }
+  ],
+  "short_url": "https://nyti.ms/3BojhEH"
+  }]
+}

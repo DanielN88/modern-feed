@@ -1,0 +1,198 @@
+{
+  "status": "OK",
+  "copyright": "Copyright (c) 2022 The New York Times Company. All Rights Reserved.",
+  "section": "home",
+  "last_updated": "2022-07-26T12:17:01-04:00",
+  "num_results": 3,
+  "results": [
+  {
+  "section": "science",
+  "subsection": "",
+  "title": "Russia Says It Will Quit the International Space Station After 2024",
+  "abstract": "The announcement could lead to the end of two decades of post-Cold War cooperation in space between the United States and Russia, which jointly built and operate the station.",
+  "url": "https://www.nytimes.com/2022/07/26/science/russia-space-station.html",
+  "uri": "nyt://article/3ff4832b-8af5-577d-be4e-105c2fe66475",
+  "byline": "By Kenneth Chang and Ivan Nechepurenko",
+  "item_type": "Article",
+  "updated_date": "2022-07-26T11:11:34-04:00",
+  "created_date": "2022-07-26T09:21:22-04:00",
+  "published_date": "2022-07-26T09:21:22-04:00",
+  "material_type_facet": "",
+  "kicker": "",
+  "des_facet": [
+  "International Space Station",
+  "United States International Relations",
+  "Space and Astronomy"
+  ],
+  "org_facet": [
+  "Roscosmos",
+  "National Aeronautics and Space Administration"
+  ],
+  "per_facet": [
+  "Borisov, Yuri"
+  ],
+  "geo_facet": [
+  "Russia"
+  ],
+  "multimedia": [
+  {
+  "url": "https://static01.nyt.com/images/2022/07/26/world/26ukraine-briefing-spacestation-1/merlin_209448813_efdbb5c9-6e1c-4450-8f8b-2750d37c5a28-superJumbo.jpg",
+  "format": "Super Jumbo",
+  "height": 1365,
+  "width": 2048,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "The International Space Station, photographed from a Russian spacecraft in 2018, was built as a symbol of post-Cold War cooperation between the world’s space superpowers.",
+  "copyright": "NASA/Roscosmos, via Reuters"
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/26/world/26ukraine-briefing-spacestation-1/merlin_209448813_efdbb5c9-6e1c-4450-8f8b-2750d37c5a28-threeByTwoSmallAt2X.jpg",
+  "format": "threeByTwoSmallAt2X",
+  "height": 400,
+  "width": 600,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "The International Space Station, photographed from a Russian spacecraft in 2018, was built as a symbol of post-Cold War cooperation between the world’s space superpowers.",
+  "copyright": "NASA/Roscosmos, via Reuters"
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/26/world/26ukraine-briefing-spacestation-1/26ukraine-briefing-spacestation-1-thumbLarge.jpg",
+  "format": "Large Thumbnail",
+  "height": 150,
+  "width": 150,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "The International Space Station, photographed from a Russian spacecraft in 2018, was built as a symbol of post-Cold War cooperation between the world’s space superpowers.",
+  "copyright": "NASA/Roscosmos, via Reuters"
+  }
+  ],
+  "short_url": "https://nyti.ms/3vc7HbV"
+  },
+  {
+  "section": "business",
+  "subsection": "economy",
+  "title": "Fed Prepares Another Rate Increase as Wall Street Wonders What’s Next",
+  "abstract": "Central bankers around the world have been picking up the pace of rate increases. Now the big question looms: When will they slow down?",
+  "url": "https://www.nytimes.com/2022/07/25/business/economy/fed-interest-rate-increase.html",
+  "uri": "nyt://article/e6473778-4423-5a99-8b4e-c4445b9f63be",
+  "byline": "By Jeanna Smialek",
+  "item_type": "Article",
+  "updated_date": "2022-07-26T07:59:00-04:00",
+  "created_date": "2022-07-25T15:20:58-04:00",
+  "published_date": "2022-07-25T15:20:58-04:00",
+  "material_type_facet": "",
+  "kicker": "",
+  "des_facet": [
+  "United States Economy",
+  "Interest Rates",
+  "Prices (Fares, Fees and Rates)",
+  "Inflation (Economics)",
+  "Banking and Financial Institutions",
+  "Recession and Depression",
+  "Oil (Petroleum) and Gasoline",
+  "Wages and Salaries",
+  "Consumer Behavior"
+  ],
+  "org_facet": [
+  "Federal Reserve System"
+  ],
+  "per_facet": [],
+  "geo_facet": [],
+  "multimedia": [
+  {
+  "url": "https://static01.nyt.com/images/2022/07/25/business/25dc-FedPreview/25dc-FedPreview-superJumbo.jpg",
+  "format": "Super Jumbo",
+  "height": 1365,
+  "width": 2048,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "The Federal Reserve is expected to make another large interest rate increase this week as policymakers try to tame persistent inflation.",
+  "copyright": "Stefani Reynolds for The New York Times"
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/25/business/25dc-FedPreview/25dc-FedPreview-threeByTwoSmallAt2X.jpg",
+  "format": "threeByTwoSmallAt2X",
+  "height": 400,
+  "width": 600,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "The Federal Reserve is expected to make another large interest rate increase this week as policymakers try to tame persistent inflation.",
+  "copyright": "Stefani Reynolds for The New York Times"
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/25/business/25dc-FedPreview/25dc-FedPreview-thumbLarge.jpg",
+  "format": "Large Thumbnail",
+  "height": 150,
+  "width": 150,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "The Federal Reserve is expected to make another large interest rate increase this week as policymakers try to tame persistent inflation.",
+  "copyright": "Stefani Reynolds for The New York Times"
+  }
+  ],
+  "short_url": "https://nyti.ms/3b0M8UV"
+  },
+  {
+  "section": "business",
+  "subsection": "economy",
+  "title": "Is Recession Staring Us Down? Already Upon Us? Here’s Why It’s Hard to Say.",
+  "abstract": "The U.S. may register a second straight quarter of economic contraction, one benchmark of a recession. But that won’t be the last word.",
+  "url": "https://www.nytimes.com/2022/07/26/business/economy/recession-economy.html",
+  "uri": "nyt://article/a8f3e9a1-c5de-590a-a0c7-3fc2986a641a",
+  "byline": "By Ben Casselman",
+  "item_type": "Article",
+  "updated_date": "2022-07-26T08:00:22-04:00",
+  "created_date": "2022-07-26T03:00:09-04:00",
+  "published_date": "2022-07-26T03:00:09-04:00",
+  "material_type_facet": "",
+  "kicker": "",
+  "des_facet": [
+  "Recession and Depression",
+  "United States Economy",
+  "Layoffs and Job Reductions",
+  "Gross Domestic Product",
+  "Economics (Theory and Philosophy)",
+  "Consumer Confidence (Economic Indicator)"
+  ],
+  "org_facet": [
+  "National Bureau of Economic Research"
+  ],
+  "per_facet": [
+  "Hall, Robert E"
+  ],
+  "geo_facet": [],
+  "multimedia": [
+  {
+  "url": "https://static01.nyt.com/images/2022/07/26/business/26recession-explainer/26recession-explainer-superJumbo.jpg",
+  "format": "Super Jumbo",
+  "height": 1536,
+  "width": 2048,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": "Naomi Elliott"
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/26/business/26recession-explainer/26recession-explainer-threeByTwoSmallAt2X.jpg",
+  "format": "threeByTwoSmallAt2X",
+  "height": 400,
+  "width": 600,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": "Naomi Elliott"
+  },
+  {
+  "url": "https://static01.nyt.com/images/2022/07/26/business/26recession-explainer/26recession-explainer-thumbLarge.jpg",
+  "format": "Large Thumbnail",
+  "height": 150,
+  "width": 150,
+  "type": "image",
+  "subtype": "photo",
+  "caption": "",
+  "copyright": "Naomi Elliott"
+  }
+  ],
+  "short_url": "https://nyti.ms/3vgE1dI"
+  }]
+}
