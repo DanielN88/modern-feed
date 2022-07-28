@@ -8,7 +8,6 @@ import ArticleDetails from './Components/ArticleDetails'
 const App = () => {
   
   const [articles, setArticles] = useState([])
-  const [subSections, setSubSections] = useState([])
 
 
   const dataCleaner = (data) => {
@@ -35,7 +34,6 @@ const App = () => {
     .then(response => response.json())
     .then(data => dataCleaner(data.results))
     .then(cleanedData => setArticles(cleanedData))
-    .then(() => setSubSections(getSubSectionArray()))
   },[])
 
   const updateFilter = ((filter) => {
@@ -43,26 +41,15 @@ const App = () => {
     .then(response => response.json())
     .then(data => dataCleaner(data.results))
     .then(cleanedData => setArticles(cleanedData))
-    .then(() => setSubSections(getSubSectionArray()))
   })
 
-  const getSubSectionArray = () => {
-      const subSectionArray = articles.reduce((acc, article) => {
-        if (article.subSection && !acc.includes(article.subSection)) {
-          acc.push(article.subSection)
-        }
-        return acc
-      },[])
-      console.log(subSectionArray)
-      return subSectionArray
-  }
 
   return (
     <div className='App'>
       <Switch>
         <Route exact path='/'>
           <Nav />
-          <Homepage articles={articles} updateFilter={updateFilter} subSections={subSections}/>
+          <Homepage articles={articles} updateFilter={updateFilter}/>
         </Route>
         <Route exact path='/:id' 
           render={({match}) => {

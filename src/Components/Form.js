@@ -2,28 +2,9 @@ import React, { useState } from 'react'
 import './Form.css'
 import ArticleOption from './ArticleOption'
 
-const Form = ({updateFilter, subSections}) => {
+const Form = ({updateFilter}) => {
 
   const [filterType, setFilterType] = useState('')
-
-  const allSubSections = () => {
-    const mappedSubSections = subSections.map((subSection) => {
-      return (
-        <ArticleOption subSection={subSection}/>
-      )
-    })
-    return mappedSubSections
-  }
-
-  const displaySubSections = () => {
-    if (subSections.length) {
-      return (
-        <div>
-          {allSubSections()}
-        </div>
-    )
-  }
-  }
 
   const handleChange = (event) => {
     setFilterType(event.target.value)
@@ -62,7 +43,6 @@ const Form = ({updateFilter, subSections}) => {
         </select>
       </label>
       <button className='form-button' onClick={() => updateFilter(filterType)}>Submit</button>
-      {displaySubSections()}
     </div>
   )
 }
