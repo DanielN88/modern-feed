@@ -2,14 +2,13 @@ import React, { useState, useEffect } from 'react'
 import { Route, Switch } from 'react-router-dom'
 import './App.css'
 import Nav from './Components/Nav'
-import Form from './Components/Form'
-import Articles from './Components/Articles'
 import Homepage from './Components/Homepage'
 import ArticleDetails from './Components/ArticleDetails'
 
 const App = () => {
   
   const [articles, setArticles] = useState([])
+  const [subSections, setSubSections] = useState([])
 
 
   const dataCleaner = (data) => {
@@ -36,14 +35,34 @@ const App = () => {
     .then(response => response.json())
     .then(data => dataCleaner(data.results))
     .then(cleanedData => setArticles(cleanedData))
+    // .then(() => setSubSections(getSubSectionArray()))
   },[])
+
+  const updateFilter = ((filter) => {
+    fetch(`https://api.nytimes.com/svc/topstories/v2/${filter}.json?api-key=hmnMnvdrsTLgtLuLtFHwxdb5jQhBzJ2J`)
+    .then(response => response.json())
+    .then(data => dataCleaner(data.results))
+    .then(cleanedData => setArticles(cleanedData))
+    // .then(() => getSubSectionArray())
+  })
+
+  // const getSubSectionArray = () => {
+  //     const subSectionArray = articles.reduce((acc, article) => {
+  //       if (article.subSection && !acc.includes(article.subSection)) {
+  //         acc.push(article.subSection)
+  //       }
+  //       return acc
+  //     },[])
+  //     console.log(subSectionArray)
+  //     setSubSections(subSectionArray)
+  // }
 
   return (
     <div className='App'>
       <Switch>
         <Route exact path='/'>
           <Nav />
-          <Homepage articles={articles} />
+          <Homepage articles={articles} updateFilter={updateFilter} subSections={subSections}/>
         </Route>
         <Route exact path='/:id' 
           render={({match}) => {

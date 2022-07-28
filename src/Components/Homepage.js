@@ -3,11 +3,11 @@ import './Homepage.css'
 import Form from './Form.js'
 import Articles from './Articles'
 
-const Homepage = ({articles}) => {
+const Homepage = ({articles, updateFilter, subSections}) => {
   
   return (
     <div className='content'>
-      <Form />
+      <Form updateFilter={updateFilter} subSections={subSections}/>
       <Articles articles={articles} />
     </div>
   )
