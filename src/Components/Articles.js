@@ -7,7 +7,7 @@ const Articles = (articles) => {
  if (articles.articles.length) {
     const allArticles = articles.articles.map(article => {
       return (
-        <Link key={article.id} to={`/${article.id}`}>
+        <Link className='article-link' key={article.id} to={`/${article.id}`}>
           <ArticleCard 
           id={article.id}
           title={article.title}

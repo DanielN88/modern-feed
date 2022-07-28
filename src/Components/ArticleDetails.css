@@ -1,0 +1,23 @@
+.article-details-container {
+  display: flex;
+  margin: 20px;
+}
+
+.detail-title {
+  font-size: 40px;
+}
+
+.detail-abstract {
+  font-size: 25px;
+}
+
+.detail-image {
+  margin: 40px;
+}
+
+.info-container {
+  border: 2px solid black;
+  border-radius: 8px;
+  margin: 25px;
+  padding: 15px;
+}

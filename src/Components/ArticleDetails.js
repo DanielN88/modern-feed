@@ -12,14 +12,17 @@ const ArticleDetails = ({id, title, createdDate, abstract, byLine, section, url,
 
   return (
       <div className='article-details-container'>
-        <h1>TEST</h1>
-        <h2>{title}</h2>
-        <p>{createdDate}</p>
-        <p>{abstract}</p>
-        <p>{byLine}</p>
-        <p>{section}</p>
-        <p>{url}</p>
-        {checkImage()}
+        <div className='info-container'>
+          <h2 className='detail-title'>{title}</h2>
+          <p className='detail-abstract'>Abstract: {abstract}</p>
+          <p>Author: {byLine}</p>
+          <p>Date Created: {createdDate}</p>
+          <p>Section: {section}</p>
+          <p>Visit the Article at: {url}</p>
+        </div>
+        <div className='detail-image'>
+          {checkImage()}
+        </div>
       </div>
   )
 }

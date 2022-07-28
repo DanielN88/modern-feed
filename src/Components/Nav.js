@@ -6,9 +6,9 @@ const Nav = () => {
 
   return (
     <div className='nav-container'>
-      <h1>Modern Feed</h1>
+      <h1 className='nav-title'>Modern Feed</h1>
       <Link to='/'>
-        <button>Home</button>
+        <button className='nav-button'>Home</button>
       </Link>
     </div>
   )

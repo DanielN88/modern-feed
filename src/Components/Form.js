@@ -6,24 +6,24 @@ const Form = ({updateFilter, subSections}) => {
 
   const [filterType, setFilterType] = useState('')
 
-  // const allSubSections = () => {
-  //   const mappedSubSections = subSections.map((subSection) => {
-  //     return (
-  //       <ArticleOption subSection={subSection}/>
-  //     )
-  //   })
-  //   return mappedSubSections
-  // }
+  const allSubSections = () => {
+    const mappedSubSections = subSections.map((subSection) => {
+      return (
+        <ArticleOption subSection={subSection}/>
+      )
+    })
+    return mappedSubSections
+  }
 
-  // const displaySubSections = () => {
-  //   if (subSections.length) {
-  //     return (
-  //       <div>
-  //         {allSubSections()}
-  //       </div>
-  //   )
-  // }
-  // }
+  const displaySubSections = () => {
+    if (subSections.length) {
+      return (
+        <div>
+          {allSubSections()}
+        </div>
+    )
+  }
+  }
 
   const handleChange = (event) => {
     setFilterType(event.target.value)
@@ -31,9 +31,9 @@ const Form = ({updateFilter, subSections}) => {
 
   return (
     <div className='form-container'>
-      <h2>Filter by type</h2>
-      <label>Filter by section
-        <select onChange={(event) => handleChange(event)}>
+      <h2 className='form-title'>Filter by type</h2>
+      <label className='form-label'>Section
+        <select className='form-select' onChange={(event) => handleChange(event)}>
           <option value='home'>Homepage</option>
           <option value='arts'>Arts</option>
           <option value='automobiles'>Automobiles</option>
@@ -61,7 +61,8 @@ const Form = ({updateFilter, subSections}) => {
           <option value='world'>World</option>
         </select>
       </label>
-      <button onClick={() => updateFilter(filterType)}>Submit</button>
+      <button className='form-button' onClick={() => updateFilter(filterType)}>Submit</button>
+      {displaySubSections()}
     </div>
   )
 }

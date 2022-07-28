@@ -1,6 +1,15 @@
 .article-card {
-  height: 250px;
-  width: 250px;
-  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 300px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 8px;
   margin: 15px;
+}
+
+.article-card-title {
+  text-align: center;
 }

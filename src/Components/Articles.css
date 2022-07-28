@@ -1,7 +1,9 @@
 .articles-section {
   height: 90vh;
-  width: 79.7vw;
+  width: 80vw;
   border: 1px solid black;
+  border-radius: 20px;
+  margin: 20px;
   overflow:scroll;
 }
 
@@ -11,4 +13,14 @@
   flex-wrap: wrap;
   justify-content:center;
   align-content:center;
+}
+
+.article-title {
+  font-size: 40px;
+  margin-left: 50px;
+}
+
+.article-link {
+  text-decoration: none;
+  color: black;
 }

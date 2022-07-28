@@ -18,7 +18,7 @@ const App = () => {
         id: Math.floor(Math.random() * Date.now()),
         title: article.title,
         abstract: article.abstract,
-        byLine: article.byLine,
+        byLine: article.byline,
         createdDate: splitDate[0],
         url: article.url,
         section: article.section,
@@ -35,7 +35,7 @@ const App = () => {
     .then(response => response.json())
     .then(data => dataCleaner(data.results))
     .then(cleanedData => setArticles(cleanedData))
-    // .then(() => setSubSections(getSubSectionArray()))
+    .then(() => setSubSections(getSubSectionArray()))
   },[])
 
   const updateFilter = ((filter) => {
@@ -43,19 +43,19 @@ const App = () => {
     .then(response => response.json())
     .then(data => dataCleaner(data.results))
     .then(cleanedData => setArticles(cleanedData))
-    // .then(() => getSubSectionArray())
+    .then(() => setSubSections(getSubSectionArray()))
   })
 
-  // const getSubSectionArray = () => {
-  //     const subSectionArray = articles.reduce((acc, article) => {
-  //       if (article.subSection && !acc.includes(article.subSection)) {
-  //         acc.push(article.subSection)
-  //       }
-  //       return acc
-  //     },[])
-  //     console.log(subSectionArray)
-  //     setSubSections(subSectionArray)
-  // }
+  const getSubSectionArray = () => {
+      const subSectionArray = articles.reduce((acc, article) => {
+        if (article.subSection && !acc.includes(article.subSection)) {
+          acc.push(article.subSection)
+        }
+        return acc
+      },[])
+      console.log(subSectionArray)
+      return subSectionArray
+  }
 
   return (
     <div className='App'>
